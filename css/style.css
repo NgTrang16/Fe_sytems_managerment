@@ -12,7 +12,7 @@ html{
   height: 150px;
 }
 .row2 div{
-  height: ; 
+  /* height: 100 */
 }
 
 #header{
@@ -53,9 +53,7 @@ html{
 
 }
 
-s
 .sidebar {
- 
   top: 0;
   /* left: 0; */
   list-style: none;
@@ -228,3 +226,46 @@ th, td {
   .form-horizontal .control-label{
       padding-top: 4px;   
   }
+/* Phân trang */
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 10px auto; /* tự động căn giữa và tăng khoảng cách với nội dung bên trên */
+    padding: 0;
+    list-style-type: none;
+    width: fit-content;
+}
+
+
+
+.pagination li {
+  margin: 0 4px;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 14px;
+  color: #1c1a53;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* .pagination a:hover {
+  background-color: #ff0048;
+  color: white;
+} */
+
+.pagination .active a {
+  background-color: #113964;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination .disabled a {
+  color: #ccc;
+  pointer-events: none;
+  border-color: #ddd;
+}

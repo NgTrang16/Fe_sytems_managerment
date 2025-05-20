@@ -8,6 +8,16 @@
         <div id="modTitle" class="module-title" style="height:25px;margin-left:-15px;">Giảng dạy</div>
         <?php include '../layouts/upload.php'; ?>
         <?php include '../layouts/dash.php'; ?>
+        <!-- Phân trang -->
+       <div style="text-align: center;">
+       <ul class="pagination">
+            <li class="disabled"><a href="#">«</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+       </div>
     </div>
 </div>
 <script src="../../js/dash.js"></script>
