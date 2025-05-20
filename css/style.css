@@ -219,7 +219,7 @@ th, td {
 
     /* Thu nhỏ khoảng cách dọc của mỗi form-group */
     .form-horizontal .form-group{
-      margin-bottom: -5px;
+      margin-bottom: -200px;
    
   }
   /* Giảm khoảng cách giữa label và control một chút (tùy ý) */
